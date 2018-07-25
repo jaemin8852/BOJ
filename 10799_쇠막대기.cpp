@@ -22,7 +22,7 @@ int main() {
 			stk.pop();
 
 			if (before == '(') result += stk.size();	//레이저일 때, stack의 size만큼 더해줌
-			else result++;							             	//쇠막대기의 오른쪽 끝일 때, 1을 더해줌
+			else result++;					//쇠막대기의 오른쪽 끝일 때, 1을 더해줌
 		}
 
 		before = c;
